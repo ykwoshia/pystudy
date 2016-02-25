@@ -1,3 +1,9 @@
+# vim swp file
+*.swp
+
+# tag file
+tags
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
