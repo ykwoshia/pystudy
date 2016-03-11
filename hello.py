@@ -1,6 +1,7 @@
 #!/usr/bin/python
-from random import randint
-from random import choice
+#  from random import randint
+#  from random import choice
+import random
 
 
 
@@ -100,7 +101,104 @@ from random import choice
 
 
 
+#  score = [0, 0]
+#  direction = ['left', 'center', 'right']
+
+#  def kick():
+   #  print '==== You Kick! ===='
+   #  print 'Choose one side to shoot:'
+   #  print 'left, center, right'
+   #  you = raw_input()
+   #  print 'You kicked ' + you
+   #  com = choice(direction)
+   #  print 'Computer saved ' + com
+   #  if you != com:
+       #  print 'Goal!'
+       #  score[0] += 1
+   #  else:
+       #  print 'Oops...'
+   #  print 'Score: %d(you) - %d(com)\n' % (score[0], score[1])
+
+   #  print '==== You Save! ===='
+   #  print 'Choose one side to save:'
+   #  print 'left, center, right'
+   #  you = raw_input()
+   #  print 'You saved ' + you
+   #  com = choice(direction)
+   #  print 'Computer kicked ' + com
+   #  if you == com:
+       #  print 'Saved!'
+   #  else:
+       #  print 'Oops...'
+       #  score[1] += 1
+   #  print 'Score: %d(you) - %d(com)\n' % (score[0], score[1])
+
+#  for i in range(1):
+   #  print '==== Round %d ====' % (i+1)
+   #  kick()
+
+#  while(score[0] == score[1]):
+   #  i += 1
+   #  print '==== Round %d ====' % (i+1)
+   #  kick()
+
+#  if score[0] > score[1]:
+   #  print 'You Win!'
+#  else:
+   #  print 'You Lose.'
 
 
+#  a = 'hello world how are you '
+#  b = a.split()
+#  print b
+#  s = '-'
 
+#  c = '~'.join(b)
+#  print c
+#  for d in c:
+    #  print d
 
+#  print c[0]
+#  print  c[4:]
+
+#  IFH = file("p60.txt")
+#  data = IFH.read()
+#  IFH.close()
+
+#  data = input()
+#  OFH = file("p60_bak.txt", "w")
+#  OFH.write(data)
+#  OFH.close
+
+#  i = 0
+#  while i < 5:
+    #  i += 1
+    #  for j in range(3):
+        #  print "j=",j
+        #  if j == 2:
+            #  break
+    #  for k in range(3):
+        #  if k == 2:
+            #  continue
+        #  print "k=",k
+    #  if i > 3:
+        #  break
+    #  print "i=",i
+
+#  score = {'b':2,'a':1,'c':3}
+#  for key in score:
+    #  print score[key]
+#  try:
+    #  f = file('nonexist.txt')
+    #  print 'File opened!'
+    #  f.close
+#  except:
+    #  print 'File not exist.'
+#  print 'Done'
+#  d = {1:'a',2:'b',4:'c'}
+#  print d[1]
+#  print d[2]
+#  print d[4]
+#  dir(random)
+from math import pi
+print pi
